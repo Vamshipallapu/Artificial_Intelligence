@@ -1,0 +1,17 @@
+The Things which we need to check once we get the data into our hand
+=====================================================================
+
+How are the rows of the dataset uniquely identified? (What is the unit of analysis?)
+
+How many rows and columns are in the dataset?
+
+What are the key categorical variables and the frequencies of each value?
+
+How are important continuous variables distributed?
+
+How might variables be related to each other – for example, 
+how might the distribution of continuous variables vary according to categories in the data?
+
+
+What variable values are out of expected ranges, and how are missing values
+distributed?
