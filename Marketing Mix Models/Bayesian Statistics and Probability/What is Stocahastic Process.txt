@@ -1,0 +1,8 @@
+What is a stochastic process?
+
+
+A stochastic process is a mathematical model used to describe the evolution of a system over time in a probabilistic manner. 
+Unlike deterministic processes, where the outcome is completely determined by the initial conditions, 
+stochastic processes involve randomness or uncertainty in their evolution.
+
+In a stochastic process, the future behavior of the system is not entirely predictable, even if the current state is known.
