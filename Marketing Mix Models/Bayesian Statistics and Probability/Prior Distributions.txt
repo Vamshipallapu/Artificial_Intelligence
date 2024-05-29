@@ -1,0 +1,40 @@
+Examples of prior probability distributions commonly used in Bayesian analysis:
+=====================================================================================================
+
+Uniform Prior:
+
+The uniform prior distribution assigns equal probability to all values within a specified range.
+Example: If we have no prior knowledge about the value of a parameter θ, 
+we can use a uniform prior distribution over a reasonable range, such as U(0, 1) or U(-10, 10).
+
+
+Normal (Gaussian) Prior:
+
+The normal prior distribution is often used when there is prior information about the central tendency and spread of the parameter.
+Example: For a parameter μ representing the mean of a normal distribution, 
+we can specify a normal prior distribution with a mean μ_0 and a standard deviation σ_0, such as N(μ_0, σ_0^2).
+
+
+Gamma Prior:
+
+The gamma prior distribution is a common choice for parameters that represent rates or non-negative values, 
+such as the precision (inverse variance) of a normal distribution or the rate parameter of a Poisson distribution.
+
+Example: For a rate parameter λ of a Poisson distribution, we can use a gamma prior distribution with shape α and rate β, denoted as Gamma(α, β).
+
+
+Beta Prior:
+
+The beta prior distribution is suitable for parameters that represent probabilities or proportions, 
+such as the probability of success in a Bernoulli trial or the proportion of a population belonging to a certain group.
+
+Example: For a parameter p representing the probability of success in a Bernoulli trial, we can use a beta prior distribution with shape parameters α and β, denoted as Beta(α, β).
+
+
+Dirichlet Prior:
+
+The Dirichlet prior distribution is a generalization of the beta prior for parameters that represent categorical probabilities or 
+proportions that sum to 1, such as the probabilities of different outcomes in a multinomial distribution.
+
+Example: For a set of probabilities (π_1, π_2, ..., π_k) that sum to 1, we can use a Dirichlet prior distribution with 
+concentration parameters (α_1, α_2, ..., α_k), denoted as Dirichlet(α_1, α_2, ..., α_k).
